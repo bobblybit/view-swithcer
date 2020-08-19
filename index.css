@@ -1,0 +1,46 @@
+/*general css*/
+*{
+    margin: 0;
+}
+
+.wrapper{
+    width:100%;
+    max-width: 960px;
+    margin: 0 auto;
+    background:#333;
+}
+
+/*menu styles*/
+nav ul{
+    list-style-type: none;
+    padding :0;
+}
+
+nav a{
+    display: block;
+    color: #ddd;
+    text-decoration:none;
+    text-align:center;
+    color:#eee;
+    padding: 10px;
+}
+nav a:hover{
+    background:#ddd;
+    color: #333;
+}
+
+/*flex css*/
+@media screen and (min-width:720px){
+    nav ul {
+        display: flex;
+    }
+
+    nav li{
+        flex:1 1 0;
+        
+    }
+
+}
+
+
+
