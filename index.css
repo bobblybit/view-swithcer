@@ -62,4 +62,9 @@ article{
     background: #fff;
     padding: 10px;
     box-sizing: border-box;
+    transition: flex-basis 0.1s linear;
+}
+/* switching style*/
+article.stack{
+    flex: 0 1 100%;
 }
