@@ -2,7 +2,9 @@
 *{
     margin: 0;
 }
-
+body{
+    background: #ddd;
+}
 .wrapper{
     width:100%;
     max-width: 960px;
@@ -41,6 +43,23 @@ nav a:hover{
     }
 
 }
+/*articleview style*/
+ .content-wrapper{
+     display:flex;
+     margin:20px;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
 
-
-
+ article h2{
+    text-align: center;
+    padding: 5px;
+ }
+article{
+    margin-bottom: 20px;
+    border:1px solid #eee;
+    flex: 0 1 32%;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
